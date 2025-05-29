@@ -14,11 +14,11 @@ If you are developing a production application, we recommend using TypeScript wi
 ## Implement an alert dialog system
 
 Requirements:
-Imagine there is an endpoint that returns an array of alerts; it has been abstracted into a getAlerts function.
-Show the alert in order of most recent first (newest on top, oldest on bottom).
-Each alert should be able to be closed.
-The alert should be styled using css
-The alert should show on the top-right corner of the page without pushing the contents down.
-If multiple alerts are present, they should be stacked on top of each other.
-Bonus: Add button that shows/hides all current alerts
-Bonus: Add button that console.logs the visible alerts
+- Imagine there is an endpoint that returns an array of alerts; it has been abstracted into a getAlerts function.
+- Show the alert in order of most recent first (newest on top, oldest on bottom).
+- Each alert should be able to be closed.
+- The alert should be styled using css
+- The alert should show on the top-right corner of the page without pushing the contents down.
+- If multiple alerts are present, they should be stacked on top of each other.
+- Bonus: Add button that shows/hides all current alerts
+- Bonus: Add button that console.logs the visible alerts
